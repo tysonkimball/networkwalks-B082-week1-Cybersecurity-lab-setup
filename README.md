@@ -110,6 +110,36 @@ Note: Additional target machines can be added to the same virtual network for fu
 
 ## 🚨 Problems & Solutions
 
+Documenting problems is an important part of the project:
+
+### Problem 1. Systems Compatibility
+
+This exercise was designed and instructed to be executed using a Windows Operating System, I have a Mac OS.
+
+The issue was resolved by:
+
+- Analyzing project instructions and highlighting steps that were unique to Windows OS
+- Converting conflicting steps into solutions for my Mac OS
+- Downloading a compatible 7-Zip
+- Downloading a compatible VirtualBox
+- Downloading and Installing a compatible Kali Linux (ARM64 Kali Linux Installer v2026.2)
+
+This setup allowed me to successfully link these systems and create a lab environment that worked for my specs.
+
+### Problem 2. Internet Connectivity
+
+After manually configuring the IPv4 settings, Internet connectivity initially failed due to the Kali/NetworkManager configuration.
+
+As a solution for this issue, I was able to use a command line to bridge the connection with my Kali Linux v2026.2:
+
+```
+sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
+```
+
+The network connection was then rebooted and connectivity was tested again, which successfully worked.
+
+⚠️ **The network interface/connection names may differ between systems, identify your connection before running this command.**
+
 ---
 
 ## 💡 What I Learned
