@@ -20,20 +20,20 @@
 
 
 
-## Task
+## 📌 Task
 Build an isolated virtual lab environment for pen-testing, ethical hacking, and cyber defense practice. 
 
 ## 🔎 Project Overview
 
-## ☑️ Objectives
+## 📈 Objectives
 
-## Purpose of the Lab
+## 📚 Purpose of the Lab
 
-## Lab Architecture
+## 🌐 Lab Architecture
 
-## Lab Configuration
+## ⚙️ Lab Configuration
 
-## Lab Setup Procedure
+## ☑️ Lab Setup Procedure
 
 ### Step 1. Install 7-Zip
 
@@ -51,15 +51,15 @@ Build an isolated virtual lab environment for pen-testing, ethical hacking, and 
 
 ## 🚨 Problems & Solutions
 
-## What I Learned
+## 💡 What I Learned
 
-## Security/Ethical Use
+## 🔐 Security/Ethical Use
 
-## Tools & Resources
+## 🧰 Tools & Resources
 
 ## 👤 Author
 
-## Project Information
+### Project Information
 
 
 
