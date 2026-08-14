@@ -147,7 +147,7 @@ I learned how to structure and present my lab notes in a compelling, well-organi
 
 ## 🔐 Security/Ethical Use
 
-_This laboratory is intended strictly for education purposes only._
+_This lab is intended strictly for education purposes only._
 
 ---
 
