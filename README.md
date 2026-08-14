@@ -116,31 +116,31 @@ Note: Additional target machines can be added to the same virtual network for fu
 
 This project taught me how to build and manage a virtual environment suited for hands-on cybersecurity work:
 
-**1. Hypervisor Fundamentals**
+**1. Hypervisor Fundamentals:**
 I learned how a Type 2 hypervisor operates on top of an existing operating system rather than directly on hardware. I used VirtualBox as the intermediary layer that emulates virtual hardware, while macOS continued to manage the actual physical machine underneath.
 
-**2. Host vs. Guest Operating Systems**
+**2. Host vs. Guest Operating Systems:**
 I came to understand the distinction between the OS that controls physical hardware and the OS running in an isolated virtual space. In my setup, macOS served as the Host (supplying real CPU and memory resources) while Kali Linux ran as the Guest inside a contained virtual instance.
 
-**3. Allocating System Resources**
+**3. Allocating System Resources:**
 I practiced dividing up finite hardware resources (processor cores, memory, disk space) between host and guest. This meant carefully calculating how much RAM and how many CPU threads I could hand over to Kali without degrading my Mac's overall performance or causing instability.
 
-**4. Networking Between Virtual Machines**
+**4. Networking Between Virtual Machines:**
 I explored how VirtualBox's virtual adapters link VMs to different network types, and how these configuration choices shape whether and how machines can communicate with each other.
 
-**5. Comparing NAT and NAT Network Modes**
+**5. Comparing NAT and NAT Network Modes:**
 I learned that standard NAT and NAT Network configurations, while similar in name, serve distinct roles. A NAT Network setup lets several VMs share a common virtual network (enabling them to talk to one another) while still translating addresses for outbound internet access. This makes it a strong choice for setting up a multi-VM security testing lab.
 
-**6. Manually Setting Static IP Configuration**
+**6. Manually Setting Static IP Configuration:**
 I gained experience manually assigning and confirming IPv4 settings on Kali, including address, subnet mask, default gateway, and DNS configuration.
 
-**7. VM Snapshot for Recovery**
+**7. VM Snapshot for Recovery:**
 I learned the value of capturing a clean VM snapshot before diving into experimental or potentially destabilizing tasks, giving me a safe checkpoint to roll back to during future exercises.
 
-**8. Documentation**
+**8. Documentation:**
 I recognized that logging every command, configuration change, screenshot, issue encountered, and fix applied is a core habit of professional cybersecurity work.
 
-**9. Presentation**
+**9. Presentation:**
 I learned how to structure and present my lab notes in a compelling, well-organized way within a GitHub portfolio.
 
 ---
