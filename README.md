@@ -119,7 +119,25 @@ IPv6: Disabled
 Note: A NAT Network configuration was chosen specifically because it lets several VMs on the same virtual network reach each other directly, while still granting each one outbound access to the internet. This setup lays the groundwork for future lab scenarios, where separate attacker and target machines will need to interact with one another.
 
 ### Step 4. Import Kali Linux
-(ARM64 Kali Linux Installer v2026.2)
+
+The Kali Linux VM was obtained directly from Kali's official site and brought into VirtualBox through the import process. Because I have an Apple M4 chip, the architecture I dowloaded was: ARM64 Kali Linux Installer v2026.2. Its network adapter was then set up with the following configuration:
+
+```
+Adapter 1
+Attached to: NAT Network
+Network: NatNetwork
+Adapter Type: Intel PRO/1000 MT Desktop
+```
+
+The VM was allocated:
+
+```
+RAM: 4096 MB
+```
+
+<img width="2555" height="1701" alt="image" src="https://github.com/user-attachments/assets/01cb9d16-dd60-47a6-874b-d1308d5a4303" />
+
+Note: A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 ### Step 5. Configure Kali Linux Network
 
