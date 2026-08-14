@@ -15,11 +15,6 @@
 ![Static Badge](https://img.shields.io/badge/Kali%20Linux-beige?logo=kalilinux&logoColor=%2300000)
 ![Static Badge](https://img.shields.io/badge/GitHub-beige?logo=github&logoColor=%23181717)
 
-
-
-
-
-
 ## 📌 Task
 Build an isolated virtual lab environment for pen-testing, ethical hacking, and cyber defense practice. 
 
@@ -51,11 +46,14 @@ The lab provides an isolated and controlled environment for cybersecurity learni
 - Exploitation practice
 - Security-tool experimentation
 
-⚠️ Do not use this lab or its tools to attack unauthorized systems.
+⚠️ Do not use this lab or its tools to attack unauthorized systems
 
-⚠️ This must only be used for systems that you own or have explicit permission to test.
+⚠️ This must only be used for systems that you own or have explicit permission to test
 
 ## 🌐 Lab Architecture
+<img width="1346" height="616" alt="image" src="https://github.com/user-attachments/assets/55c02c3a-352e-4f74-b7c6-662bf9ab5d2c" />
+
+Note: Additional target machines can be added to the same virtual network for future projects
 
 ## ⚙️ Lab Configuration
 
