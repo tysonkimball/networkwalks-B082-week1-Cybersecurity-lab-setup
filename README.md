@@ -106,6 +106,28 @@ Note: Additional target machines can be added to the same virtual network for fu
 
 ## 🫆 Lab Verification
 
+| TEST  | COMMAND | EXPECTED RESULT |
+| ------------- | ------------- | ------------- |
+| Content Cell  | `ip a`  | Content Cell  |
+| Content Cell  | `ping 10.0.0.1`  | Content Cell  |
+| Content Cell  | `ping 8.8.8.8`  | Content Cell  |
+| Content Cell  | `nslookup networkwalks.com` | Content Cell  |
+| Content Cell  | `nmap --version`  | Content Cell  |
+| Content Cell  | Restore snapshot and run `ip a`  | Content Cell  |
+
+**Example Results:**
+
+```
+IP Address:
+10.0.0.2/24
+
+Gateway:
+10.0.0.1
+
+DNS:
+8.8.8.8
+```
+
 ---
 
 ## 🚨 Problems & Solutions
