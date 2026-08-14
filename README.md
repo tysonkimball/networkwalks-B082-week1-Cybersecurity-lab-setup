@@ -114,7 +114,7 @@ DHCP: Enabled
 
 IPv6: Disabled
 
-
+<img width="2686" height="1521" alt="image" src="https://github.com/user-attachments/assets/2eb8c53b-c4b7-4bb9-ac8a-0fb0645f5ae7" />
 
 Note: A NAT Network configuration was chosen specifically because it lets several VMs on the same virtual network reach each other directly, while still granting each one outbound access to the internet. This setup lays the groundwork for future lab scenarios, where separate attacker and target machines will need to interact with one another.
 
