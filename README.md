@@ -126,10 +126,22 @@ Note: Additional target machines can be added to the same virtual network for fu
 
 ## 👤 Author
 
+### Tyson Kimball
+
+_Cybersecurity Professional B082_
+
+LinkedIn: https://www.linkedin.com/in/tdkpng/
+
 ---
 
-### Project Information
+## 📎 Project Information
+Program Name: Cybersecurity at NETWORKWALKS
 
+Project: Cybersecurity Lab Setup
+
+Timeline: Week 1
+
+Repository: GitHub
 
 
 
