@@ -15,13 +15,19 @@
 ![Static Badge](https://img.shields.io/badge/Kali%20Linux-beige?logo=kalilinux&logoColor=%2300000)
 ![Static Badge](https://img.shields.io/badge/GitHub-beige?logo=github&logoColor=%23181717)
 
-## 📌 Task
-Build an isolated virtual lab environment for pen-testing, ethical hacking, and cyber defense practice. 
+---
 
 ## 🔎 Project Overview
 This project focuses on designing and deploying an isolated cybersecurity testing environment using VirtualBox and Kali Linux.
 
 The lab provides a controlled environment for cybersecurity practices such as network reconnaissance, vulnerability scanning, security assessment, and penetration-testing techniques in a safe and repeatable manner. A private virtual network was established to support future expansion, allowing additional virtual machines to be introduced as authorized targets for security testing and analysis.
+
+---
+
+## 📌 Task
+Build an isolated virtual lab environment for pen-testing, ethical hacking, and cyber defense practice. 
+
+---
 
 ## 📈 Objectives
 
@@ -34,6 +40,8 @@ The lab provides a controlled environment for cybersecurity practices such as ne
 - Take a clean VM snapshot for recovery
 - Document the complete setup process
 - Prepare the environment for future cybersecurity projects
+
+---
 
 ## 📚 Purpose of the Lab
 The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing, such as:
@@ -50,10 +58,14 @@ The lab provides an isolated and controlled environment for cybersecurity learni
 
 ⚠️ **This must only be used for systems that you own or have explicit permission to test**
 
+---
+  
 ## 🌐 Lab Architecture
 <img width="1346" height="616" alt="image" src="https://github.com/user-attachments/assets/55c02c3a-352e-4f74-b7c6-662bf9ab5d2c" />
 
 Note: Additional target machines can be added to the same virtual network for future projects
+
+---
 
 ## ⚙️ Lab Configuration
 
@@ -72,7 +84,7 @@ Note: Additional target machines can be added to the same virtual network for fu
 | DNS Server  | 8.8.8.8  |
 | Future VM Range  | 10.0.0.3 - 10.0.0.99  |
 
-
+---
 
 ## ☑️ Lab Setup Procedure
 
@@ -90,17 +102,31 @@ Note: Additional target machines can be added to the same virtual network for fu
 
 ### Step 6. Create VM Snapshot
 
+---
+
 ## 🫆 Lab Verification
+
+---
 
 ## 🚨 Problems & Solutions
 
+---
+
 ## 💡 What I Learned
+
+---
 
 ## 🔐 Security/Ethical Use
 
+---
+
 ## 🧰 Tools & Resources
 
+---
+
 ## 👤 Author
+
+---
 
 ### Project Information
 
