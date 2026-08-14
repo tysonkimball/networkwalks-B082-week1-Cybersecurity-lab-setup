@@ -108,12 +108,12 @@ Note: Additional target machines can be added to the same virtual network for fu
 
 | TEST  | COMMAND | EXPECTED RESULT |
 | ------------- | ------------- | ------------- |
-| Content Cell  | `ip a`  | Content Cell  |
-| Content Cell  | `ping 10.0.0.1`  | Content Cell  |
-| Content Cell  | `ping 8.8.8.8`  | Content Cell  |
-| Content Cell  | `nslookup networkwalks.com` | Content Cell  |
-| Content Cell  | `nmap --version`  | Content Cell  |
-| Content Cell  | Restore snapshot and run `ip a`  | Content Cell  |
+| Check IP Adress  | `ip a`  | Correct Kali IP displayed  |
+| Test Gateway  | `ping 10.0.0.1`  | Successful replies  |
+| Test Internet Connectivity  | `ping 8.8.8.8`  | Successful replies  |
+| Test DNS Resolution  | `nslookup networkwalks.com` | Domain resolves  |
+| Verify Nmap  | `nmap --version`  | Nmap version displayed  |
+| Verify Snapshot  | Restore snapshot and run `ip a`  | Baseline configuration restored  |
 
 **Example Results:**
 
