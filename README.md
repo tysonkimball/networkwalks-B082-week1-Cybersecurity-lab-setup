@@ -24,8 +24,21 @@
 Build an isolated virtual lab environment for pen-testing, ethical hacking, and cyber defense practice. 
 
 ## 🔎 Project Overview
+This project focuses on designing and deploying an isolated cybersecurity testing environment using VirtualBox and Kali Linux.
+
+The lab provides a controlled environment for cybersecurity practices such as network reconnaissance, vulnerability scanning, security assessment, and penetration-testing techniques in a safe and repeatable manner. A private virtual network was established to support future expansion, allowing additional virtual machines to be introduced as authorized targets for security testing and analysis.
 
 ## 📈 Objectives
+
+- Install and configure Oracle VirtualBox 
+- Install and import Kali Linux as a virtual machine 
+- Create a private NAT Network for the cybersecurity lab
+- Configure network connectivity for Kali Linux
+- Assign a consistent IP address to the Kali VM
+- Verify network connectivity and DNS resolution
+- Take a clean VM snapshot for recovery
+- Document the complete setup process
+- Prepare the environment for future cybersecurity projects
 
 ## 📚 Purpose of the Lab
 
@@ -38,10 +51,12 @@ Build an isolated virtual lab environment for pen-testing, ethical hacking, and 
 ### Step 1. Install 7-Zip
 
 ### Step 2. Install VirtualBox
+(v7.2 for Mac OS/Apple M4) 
 
 ### Step 3. Create NAT Network
 
 ### Step 4. Import Kali Linux
+(ARM64 Kali Linux Installer v2026.2)
 
 ### Step 5. Configure Kali Linux Network
 
