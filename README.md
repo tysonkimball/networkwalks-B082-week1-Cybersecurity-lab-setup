@@ -61,7 +61,7 @@ The lab provides an isolated and controlled environment for cybersecurity learni
 ---
   
 ## 🌐 Lab Architecture
-<img width="1346" height="616" alt="image" src="https://github.com/user-attachments/assets/55c02c3a-352e-4f74-b7c6-662bf9ab5d2c" />
+<img width="2200" height="1016" alt="image" src="https://github.com/user-attachments/assets/aefdc7aa-7a62-4b4b-aaf8-f50d5f8d1f42" />
 
 Note: Additional target machines can be added to the same virtual network for future projects
 
