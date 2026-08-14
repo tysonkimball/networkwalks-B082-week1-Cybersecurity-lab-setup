@@ -90,12 +90,15 @@ Note: Additional target machines can be added to the same virtual network for fu
 
 ### Step 1. Install 7-Zip
 
-I installed 7-Zip to extract the Kali Linux VM package.
+I installed 7-Zip (Mac OS) to extract the Kali Linux VM package.
 
 Tool: [7-Zip](https://www.7-zip.org/download.html)
 
 ### Step 2. Install VirtualBox
-(v7.2 for Mac OS/Apple M4) 
+
+I installed VirtualBox (v7.2 for Mac OS/Apple M4) as the hypervisor.
+
+Tool: [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 ### Step 3. Create NAT Network
 
