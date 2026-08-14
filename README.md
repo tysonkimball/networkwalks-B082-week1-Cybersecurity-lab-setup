@@ -102,6 +102,22 @@ Tool: [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 ### Step 3. Create NAT Network
 
+I created a dedicated NAT Network in VirtualBox.
+
+**Configuration:**
+
+Network Name: NatNetwork
+
+IPv4 Prefix: 10.0.0.0/24
+
+DHCP: Enabled
+
+IPv6: Disabled
+
+
+
+Note: A NAT Network configuration was chosen specifically because it lets several VMs on the same virtual network reach each other directly, while still granting each one outbound access to the internet. This setup lays the groundwork for future lab scenarios, where separate attacker and target machines will need to interact with one another.
+
 ### Step 4. Import Kali Linux
 (ARM64 Kali Linux Installer v2026.2)
 
