@@ -94,11 +94,15 @@ I installed 7-Zip (Mac OS) to extract the Kali Linux VM package.
 
 Tool: [7-Zip](https://www.7-zip.org/download.html)
 
+---
+
 ### Step 2. Install VirtualBox
 
 I installed VirtualBox (v7.2 for Mac OS/Apple M4) as the hypervisor.
 
 Tool: [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
+---
 
 ### Step 3. Create NAT Network
 
@@ -117,6 +121,8 @@ IPv6: Disabled
 <img width="2686" height="1521" alt="image" src="https://github.com/user-attachments/assets/2eb8c53b-c4b7-4bb9-ac8a-0fb0645f5ae7" />
 
 Note: A NAT Network configuration was chosen specifically because it lets several VMs on the same virtual network reach each other directly, while still granting each one outbound access to the internet. This setup lays the groundwork for future lab scenarios, where separate attacker and target machines will need to interact with one another.
+
+---
 
 ### Step 4. Import Kali Linux
 
@@ -139,9 +145,40 @@ RAM: 4096 MB
 
 Note: A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
+---
+
 ### Step 5. Configure Kali Linux Network
 
+The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
+
+Example configuration:
+
+```
+IP Address: 10.0.0.2
+Subnet Mask: 255.255.255.0
+Gateway: 10.0.0.1
+DNS: 8.8.8.8
+```
+
+A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
+
+<img width="2562" height="1706" alt="image" src="https://github.com/user-attachments/assets/ab69b467-96c8-4f1f-a740-ece95fd96aca" />
+
+---
+
 ### Step 6. Create VM Snapshot
+
+After completing the initial configuration, a VirtualBox snapshot was created.
+
+Example snapshot name:
+
+```
+My Fresh Kali Linux
+```
+
+The snapshot represents the clean baseline of the laboratory.
+
+If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
 
 ---
 
