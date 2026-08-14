@@ -20,5 +20,50 @@
 
 
 
-## Task:
+## Task
 Build an isolated virtual lab environment for pen-testing, ethical hacking, and cyber defense practice. 
+
+## 🔎 Project Overview
+
+## ☑️ Objectives
+
+## Purpose of the Lab
+
+## Lab Architecture
+
+## Lab Configuration
+
+## Lab Setup Procedure
+
+### Step 1. Install 7-Zip
+
+### Step 2. Install VirtualBox
+
+### Step 3. Create NAT Network
+
+### Step 4. Import Kali Linux
+
+### Step 5. Configure Kali Linux Network
+
+### Step 6. Create VM Snapshot
+
+## 🫆 Lab Verification
+
+## 🚨 Problems & Solutions
+
+## What I Learned
+
+## Security/Ethical Use
+
+## Tools & Resources
+
+## 👤 Author
+
+## Project Information
+
+
+
+
+
+
+
