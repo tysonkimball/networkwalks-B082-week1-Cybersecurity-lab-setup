@@ -46,9 +46,9 @@ The lab provides an isolated and controlled environment for cybersecurity learni
 - Exploitation practice
 - Security-tool experimentation
 
-⚠️ Do not use this lab or its tools to attack unauthorized systems
+⚠️ **Do not use this lab or its tools to attack unauthorized systems**
 
-⚠️ This must only be used for systems that you own or have explicit permission to test
+⚠️ **This must only be used for systems that you own or have explicit permission to test**
 
 ## 🌐 Lab Architecture
 <img width="1346" height="616" alt="image" src="https://github.com/user-attachments/assets/55c02c3a-352e-4f74-b7c6-662bf9ab5d2c" />
@@ -56,6 +56,23 @@ The lab provides an isolated and controlled environment for cybersecurity learni
 Note: Additional target machines can be added to the same virtual network for future projects
 
 ## ⚙️ Lab Configuration
+
+| COMPONENT  | CONFIGURATION |
+| ----------- | ----------- |
+| Host OS   | Mac OS Tahoe  |
+| Host RAM  | 16 GB  |
+| Processor  | Apple M4  |
+| Hypervisor  | VirtualBox v7.2  |
+| Security OS  | Kali Linux v2026.2  |
+| Kali RAM  | 4096 MB  |
+| Virtual Network  | NAT Network  |
+| Network Address  | 10.0.0.0/24  |
+| Kali IP Address  | 10.0.0.2/24  |
+| Default Gateway  | 10.0.0.1  |
+| DNS Server  | 8.8.8.8  |
+| Future VM Range  | 10.0.0.3 - 10.0.0.99  |
+
+
 
 ## ☑️ Lab Setup Procedure
 
